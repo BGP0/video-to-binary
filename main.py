@@ -1,6 +1,6 @@
 import mmcv
 
-video = mmcv.VideoReader('videos/full_resized.mp4')
+video = mmcv.VideoReader('videos/video.mp4')
 total_frames = len(video)
 current_frame = 0
 
